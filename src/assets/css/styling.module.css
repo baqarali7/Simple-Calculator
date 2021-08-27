@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.base {
+    background-color:  #e6e6e6;
+    border-radius: 30px;
+    box-shadow: 0px 20px 3px 2px #b3b3b3;
+}
+
+.screen_panel {
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 500;
+    background-color: #808080;
+    border-radius: 10px;
+    box-shadow: inset 12px 12px 0px 0px #666;
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+    padding: 0.5rem 0;
+}
+
+.button {
+    color: #fff;
+    background-color: #662d91;
+    border-radius: 8px;
+    box-shadow: 0px 6px 0px 0px #421e68;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.button:focus {
+    opacity: 1;
+}
