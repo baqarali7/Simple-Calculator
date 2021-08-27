@@ -14,7 +14,7 @@ const Button = (props) => {
         }
 
         if (operationTOPerform === "x") {
-            return parseFloat(input1) * parseFloat(input2);
+            return (parseFloat(input1) * parseFloat(input2)).toFixed(2);
         }
 
         if (operationTOPerform === "/") {
